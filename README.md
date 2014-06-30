@@ -5,6 +5,7 @@ These directories contain the data and code I used to test the performance of fg
 
 ### Requirements ###
 [hapgen2](https://mathgen.stats.ox.ac.uk/genetics_software/hapgen/hapgen2.html)
+
 [fgwas](https://github.com/joepickrell/fgwas)
 
 ### Description ###
