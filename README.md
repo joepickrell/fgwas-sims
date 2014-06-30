@@ -9,7 +9,7 @@ These directories contain the data and code I used to test the performance of fg
 [fgwas](https://github.com/joepickrell/fgwas)
 
 ### Description ###
-Simulations are based on the haplotype structure of 111 random regions (2 per chromosome, plus an extra chromosome 22 region) from real 1000 Genomes data. Each simulation consists of simulated genotype and phenotype data for 5,000 individuals at all 111 regions. To run the simulations, go to sims/scripts/. The steps are listed in order in that directory (i.e. first run the script 1_*, then the script 2_*, then 3_*, etc.:
+Simulations are based on the haplotype structure of 111 random regions (2 per chromosome, plus an extra chromosome 22 region) from real 1000 Genomes data. Each simulation consists of simulated genotype and phenotype data for 5,000 individuals at all 111 regions. To run the simulations, go to sims/scripts/. The steps are listed in order in that directory (i.e. first run the script 1_sim_many.py, then the script 2_make_all_pheno.py, then 3_run_all_lm_allsim.py, etc.:
 
 1. Simulate 10,000 control haplotypes using hapgen2
 2. Simulate quantiative phenotypes for 5,000 individuals using the haplotypes from 1 (~50% of the variance explained by the 111 causal SNPs in subset/causals.txt)
